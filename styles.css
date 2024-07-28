@@ -1,6 +1,7 @@
 body{
     font-family: 'Roboto', sans-serif;
     margin: 0;
+    background-color: black;
 }
 
 .heading{
@@ -18,7 +19,7 @@ body{
 }
 
 .landing-page{
-    padding: 0px 50px;
+    padding: 0px 100px;
     background-image: url(./assets/green_mountain.jpg);
     height: 100vh;
     background-size: cover;
@@ -107,7 +108,13 @@ nav ul li a:hover{
     padding: 18px;
     font-size: 20px;
     color: white;
+  }body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
   }
+  
 
   .button-container{
     display: flex;
@@ -178,8 +185,7 @@ nav ul li a:hover{
   }
 
   .second-page{
-    padding: 0px 50px;
-    height: 100vh;
+    padding: 100px;
   }
 
   .navbar{
@@ -204,13 +210,7 @@ nav ul li a:hover{
 
 /* styles.css */
 
-body {
-    font-family: 'Roboto', sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
+
   .navigations {
     text-align: center;
     margin: 20px 0;
@@ -243,13 +243,13 @@ body {
   
   .content-item {
     background: #fff;
-    border: 1px solid #ccc;
-    border-radius: 8px;
+    border-radius: 20px;
     width: 30%;
     margin: 10px;
     padding: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     display: none; /* Hide all items by default */
+    background-color: rgb(30 41 59);
   }
 
   .content-container h2{
@@ -261,7 +261,7 @@ body {
   
   .tile-image {
     width: 100%;
-    border-radius: 8px 8px 0 0;
+    border-radius: 20px 20px 0 0;
   }
   
   .image-heading {
@@ -305,7 +305,56 @@ body {
   .author-name {
     font-size: 0.9em;
   }
-  
+
+  /* third page */
+
   .third-page{
+    padding: 0px 100px;
     height: 100vh;
   }
+
+  /* styles.css */
+
+
+  
+  .image-grid {
+    display: flex;
+    flex: 1;
+    gap: 20px;
+  }
+  
+  .small-image-container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 20px;
+  }
+  
+  .small-image {
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+    border-radius: 20px;
+  }
+  
+  .large-image-container {
+    flex: 2;
+  }
+  
+  .large-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+  }
+  
+  .final-footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 20px;
+    height: 150px;
+    margin: 20px;
+  }
+  
