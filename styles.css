@@ -1,0 +1,311 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+.heading{
+    font-weight: 700;
+    font-style: normal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 70px;
+}
+
+.logo{
+    width: 100px;
+    color: white;
+}
+
+.landing-page{
+    padding: 0px 50px;
+    background-image: url(./assets/green_mountain.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: space-between;
+    transition: background-image 1s ease-in-out;
+}
+
+nav{
+    overflow: hidden;
+    width: 30%;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    font-size: large;
+    padding: 14px 20px;
+}
+
+nav ul li a:hover{
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+}
+
+.nav-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.search-container {
+    position: relative;
+    width: 300px;
+  }
+  
+  .search-bar {
+    width: 100%;
+    padding: 15px 20px;
+    border: 2px solid rgba(0, 0, 0);
+    border-radius: 8px;
+    background-color: black;
+    color: black;
+    font-size: 16px;
+    transition: background-color 0.3s, border-color 0.3s;
+  }
+  
+  .search-bar::placeholder {
+    color: white;
+  }
+  
+  .search-bar:focus {
+    outline: none;
+    color: white;
+  }
+  
+  .button1{
+    background-color: transparent;
+    border: none;
+    padding: 18px;
+    font-size: 20px;
+  }
+
+  .button1:hover{
+    background-color: black;
+    color: white;
+    transition: 0.3s;
+  }
+  
+  .button2{
+    background-color: black;
+    border: none;
+    padding: 18px;
+    font-size: 20px;
+    color: white;
+  }
+
+  .button-container{
+    display: flex;
+    justify-content: space-between;
+    width: 12%;
+  }
+
+  .footer{
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+  }
+
+  .footer-button{
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    border: none;
+    font-size: 20px;
+    border-radius: 30px;
+  }
+
+  .footer-left{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 40%;
+  }
+
+  .footer-heading{
+    color: white;
+    font-size: 80px;
+    margin: 20px 0px;
+  }
+
+  .footer-paragh{
+    color: white;
+    font-size: 1.2rem;
+  }
+
+  .footer-right{
+    color: white;
+  }
+
+  .footer-right img{
+    width: 50px;
+    padding: 20px 20px;
+  }
+
+  .footer-name{
+    display: flex;
+    align-items: center;
+  }
+
+  .footer-date{
+    padding-left: 20px;
+  }
+
+  .footer-date h4{
+    margin: 0;
+  }
+
+
+  .navbar{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .second-page{
+    padding: 0px 50px;
+    height: 100vh;
+  }
+
+  .navbar{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .navigations button{
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+  }
+
+  .navigations button :active{
+    background-color: lightgray;
+  }
+
+
+
+
+  /* styles.css */
+
+/* styles.css */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .navigations {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .filter-btn {
+    padding: 10px 20px;
+    margin-right: 5px;
+    border: none;
+    background-color: #f1f1f1;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .filter-btn:hover {
+    background-color: #ddd;
+  }
+  
+  .filter-btn.active {
+    background-color: #007BFF;
+    color: white;
+  }
+  
+  .content-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+  }
+  
+  .content-item {
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 30%;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: none; /* Hide all items by default */
+  }
+
+  .content-container h2{
+    position: relative;
+    top: 0;
+    right: 0;
+    width: inherit;
+  }
+  
+  .tile-image {
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+  }
+  
+  .image-heading {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px;
+    border-radius: 5px;
+  }
+  
+  .date-time {
+    margin: 10px 0;
+    color: #555;
+    font-size: 0.9em;
+  }
+  
+  .content-heading {
+    font-size: 1.2em;
+    margin: 10px 0;
+  }
+  
+  .content-paragraph {
+    font-size: 1em;
+    margin: 10px 0;
+  }
+  
+  .author-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .author-image {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .author-name {
+    font-size: 0.9em;
+  }
+  
+  .third-page{
+    height: 100vh;
+  }
